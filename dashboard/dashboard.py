@@ -93,3 +93,5 @@ ax[1][1].tick_params(axis='y', labelsize=12)
 
 plt.suptitle("Best and Worst Performing hour by Number of Rent", fontsize=20)
 st.pyplot(fig)
+
+st.caption('Copyright (c) Cahyo Prakoso 2024')
