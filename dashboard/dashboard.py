@@ -26,7 +26,7 @@ st.title("Analisis Data Penyewaan Sepeda")
 st.image("https://www.holidify.com/images/cmsuploads/compressed/bike-rental-2284380_1920_20180518075038.jpg")
 st.caption("Image Source: https://www.holidify.com")
 
-hour_df = pd.read_csv('dashboard\hour.csv')
+hour_df = pd.read_csv('dashboard/hour.csv')
 hour_df["dteday"] = pd.to_datetime(hour_df["dteday"])
 
 
