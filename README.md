@@ -1,6 +1,11 @@
 # Dashboard Analisis Data Penyewaan Sepeda
 
-### Setup environment
-conda create --name main-ds python=3.9
-conda activate main-ds
+## Setup environment
+Install beberapa package dibawah
+```
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+```
+
+## Run steamlit app
+```
+streamlit run dashboard.py
